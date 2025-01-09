@@ -1,44 +1,43 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #f8f9fa;
-    margin: 0;
-    padding: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.p-4.shadow-sm.rounded-3 {
+  border-radius: 0.5rem !important;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+#projectionList li {
+  background: #ffffff;
+  border: 1px solid #e9ecef;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+#rendimentoChart,
+#rentabilidadeDiariaChart {
+  max-height: 400px;
+  width: 100% !important;
+}
+
+footer {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  section.py-5 {
+    padding: 50px 0;
   }
-  
-  .navbar {
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  .p-4.shadow-sm.rounded-3 {
-    border-radius: 0.5rem !important;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.1) !important;
-  }
-  
-  .card-title {
-    font-weight: 700;
-  }
-  
-  #projectionList li {
-    background: #ffffff;
-    border: 1px solid #e9ecef;
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 10px;
-  }
-  
-  #rendimentoChart,
-  #rentabilidadeDiariaChart {
-    max-height: 400px;
-    width: 100% !important;
-  }
-  
-  footer {
-    width: 100%;
-  }
-  
-  @media (max-width: 768px) {
-    section.py-5 {
-      padding: 50px 0;
-    }
-  }
-  
+}
